@@ -71,7 +71,7 @@ handleUpdateLocation = async city => {
           <View>
             {error && (
               <Text style={[styles.smallText, styles.textStyle]}>
-                Nije moguce prikazati vreme, molimo vas unesite drugi grad!
+               Could not load weather, please try a different city
               </Text>
             )}
 
